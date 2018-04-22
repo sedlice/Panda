@@ -7,7 +7,7 @@ from Panda.items import PandaItem
 class GetpandatvroompictureSpider(scrapy.Spider):
     name = 'GetPandaTVRoomPicture'
     allowed_domains = ['www.panda.tv']
-    base_url = "https://www.panda.tv/ajax_sort?pagenum=120&classification=yzdr&pageno="
+    base_url = "https://www.panda.tv/ajax_sort?pagenum=120&classification=lol&pageno="
     offset = 1
     start_urls = [base_url + str(offset)]
     # https://www.panda.tv/ajax_sort?pageno=1&pagenum=120&classification=yzdr
